@@ -1,5 +1,6 @@
 package baseball.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Baseball {
@@ -14,7 +15,9 @@ public class Baseball {
 		this.numbers = numbers;
 	}
 
-
+	public Baseball() {
+		numbers = new ArrayList<>();
+	}
 
 
 
